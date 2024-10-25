@@ -7,6 +7,8 @@ class ImageQr extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return const Image(
+      height: 300,
+      fit: BoxFit.cover,
       image: AssetImage(myQR),
     );
   }
