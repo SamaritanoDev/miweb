@@ -52,10 +52,16 @@ class _MiPerfilPagState extends State<MiPerfilPag> {
                 InkWell(
                   //por mientras agregamos esta nnavegacion para ver como se redirige en vercel
                   onTap: () {
-                    Navigator.push(context,
-                        MaterialPageRoute(builder: (context) {
-                      return const SobreMiPag();
-                    }));
+                    // Navigator.push(
+                    //   context,
+                    //   MaterialPageRoute(
+                    //     builder: (context) {
+                    //       return const SobreMiPag();
+                    //     },
+                    //   ),
+                    // );
+                    //como ya tenemos el nombre de esta vista ponemos ese /sobreMi y se usaria Navigator.pushNamed
+                    Navigator.pushNamed(context, '/sobreMi');
                   },
                   child: const ImageQr(),
                 ),

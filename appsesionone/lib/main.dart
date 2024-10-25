@@ -11,10 +11,16 @@ class MainApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    //vamos agregar rutas
     return MaterialApp(
+      //con cual ruta se va a iniciar la app
+      initialRoute: '/',
       theme: ThemeData(colorSchemeSeed: Colors.indigoAccent),
-      home: const MiPerfilPag(),
-      // home: const SobreMiPag(),
+      //rutas de navegacion con nombre
+      routes: {
+        '/': (context) => const MiPerfilPag(), //pagina inicial por defecto se mostrara lo que hay en MiPerfilPag
+        '/sobreMi': (context) => const SobreMiPag(),
+      },
     );
   }
 }
