@@ -25,6 +25,7 @@ class SobreMiPag extends StatelessWidget {
                 ),
               ),
               SizedBox(height: 20.0),
+             
               BotonContacto(),
             ],
           ),

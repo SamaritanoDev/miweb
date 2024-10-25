@@ -7,7 +7,9 @@ class BotonContacto extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return TextButton.icon(
-      onPressed: () {},
+      onPressed: () {
+         //clic lleva a tu red social usa el paquete laucnher_url
+      },
       icon: const Icon(FontAwesomeIcons.instagram),
       label: const Text('@amgelcaya'),
     );

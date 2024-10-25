@@ -48,6 +48,7 @@ class _MiPerfilPagState extends State<MiPerfilPag> {
           child: SingleChildScrollView(
             child: Column(
               mainAxisAlignment: MainAxisAlignment.center,
+              crossAxisAlignment: CrossAxisAlignment.center,
               children: [
                 const SizedBox(height: 30),
                 InkWell(
