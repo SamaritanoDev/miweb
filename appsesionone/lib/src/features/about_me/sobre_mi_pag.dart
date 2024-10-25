@@ -8,23 +8,26 @@ class SobreMiPag extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return const Scaffold(
-      body: Center(
-        child: Column(
-          mainAxisAlignment: MainAxisAlignment.center,
-          children: [
-            TitleProfile(),
-            SizedBox(height: 20.0),
-            Text(
-              'Contáctame',
-              style: TextStyle(
-                color: Colors.indigo,
-                fontWeight: FontWeight.bold,
-                fontSize: 20.0,
+      body: Padding(
+        padding: EdgeInsets.only(left: 20, right: 20),
+        child: Center(
+          child: Column(
+            mainAxisAlignment: MainAxisAlignment.center,
+            children: [
+              TitleProfile(),
+              SizedBox(height: 20.0),
+              Text(
+                'Contáctame',
+                style: TextStyle(
+                  color: Colors.indigo,
+                  fontWeight: FontWeight.bold,
+                  fontSize: 18.0,
+                ),
               ),
-            ),
-            SizedBox(height: 20.0),
-            BotonContacto(),
-          ],
+              SizedBox(height: 20.0),
+              BotonContacto(),
+            ],
+          ),
         ),
       ),
     );

@@ -1,2 +1,2 @@
-const myQR = 'assets/myqr.png';
+const myQR = 'assets/miqr.png';
 const guardowl = 'assets/guardowl.jpeg';

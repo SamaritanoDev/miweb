@@ -49,6 +49,7 @@ class _MiPerfilPagState extends State<MiPerfilPag> {
             child: Column(
               mainAxisAlignment: MainAxisAlignment.center,
               children: [
+                const SizedBox(height: 30),
                 InkWell(
                   //por mientras agregamos esta nnavegacion para ver como se redirige en vercel
                   onTap: () {
